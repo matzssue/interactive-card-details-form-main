@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(/images/bg-main-desktop.png);
+  background-repeat: no-repeat;
+}
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#container {
+  margin-right: 150px;
+  margin-left: 150px;
+}
+#card-form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.bottom-from {
+  display: flex;
+}
+.date label {
+  width: 50%;
+  display: flex;
+}
+.year,
+.month {
+  width: 45%;
+}
+
+.cvc {
+  width: 100%;
+}
+.cvc label {
+  display: flex;
+  width: 50%;
+}
+.card-1 {
+  position: relative;
+}
+.card-1 .nmb {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+.yeah {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
